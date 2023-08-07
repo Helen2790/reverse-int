@@ -1,6 +1,7 @@
 function numToReverse (number) {
-    let number = number.toString;
-    arr = number.split(' ');
-    rev = arr.reverse();
-    return Number(rev);
+    let a = String(number);
+   let arr = a.split('');
+   let rev = arr.reverse();
+  let  revStr = rev.join('');
+    return Number(revStr);
 }
