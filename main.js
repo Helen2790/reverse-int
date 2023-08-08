@@ -1,7 +1,8 @@
-function numToReverse (number) {
-    let a = String(number);
+function reverse (n) {
+    let a = String(n);
    let arr = a.split('');
    let rev = arr.reverse();
   let  revStr = rev.join('');
-    return Number(revStr);
+  let b = Number(revStr);
+  return Math.abs(b);
 }
